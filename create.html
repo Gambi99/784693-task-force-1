@@ -140,7 +140,7 @@
                             </div>
                             <div class="create__price-time--wrapper">
                                 <label for="15">Срок исполнения</label>
-                                <input id="15"  class="input-middle input input-date" type="text" placeholder="2021-01-01">
+                                <input id="15"  class="input-middle input input-date" type="date" placeholder="10.11, 15:00">
                                 <span>Укажите крайний срок исполнения</span>
                             </div>
                         </div>
@@ -217,7 +217,7 @@
 </div>
 <script src="js/dropzone.js"></script>
 <script>
-  var dropzone = new Dropzone("div.create__file", {url: "upload.php", paramName: "Attach"});
+  var dropzone = new Dropzone("div.create__file", {url: "/", paramName: "Attach"});
 </script>
 </body>
 </html>
